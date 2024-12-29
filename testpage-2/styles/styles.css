@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  input, button {
+    margin: 10px;
+  }
+  
+  #weather-icon {
+    position: fixed;
+    bottom: 200px; /* 少し上に移動 */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 150px; /* サイズを一回り大きく */
+  }
+  
